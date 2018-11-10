@@ -9,7 +9,7 @@
 import Foundation
 import Charts
 
-public class XYMarkerView: BalloonMarker {
+public class XYMarkerView: EAPBalloonMarker {
     public var xAxisValueFormatter: IAxisValueFormatter
     fileprivate var yFormatter = NumberFormatter()
     

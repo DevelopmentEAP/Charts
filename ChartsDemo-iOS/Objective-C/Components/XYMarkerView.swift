@@ -7,7 +7,7 @@
 import Foundation
 import Charts
 
-open class XYMarkerView: BalloonMarker
+open class XYMarkerView: EAPBalloonMarker
 {
     @objc open var xAxisValueFormatter: IAxisValueFormatter?
     fileprivate var yFormatter = NumberFormatter()
